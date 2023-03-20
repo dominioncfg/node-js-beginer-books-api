@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const Book = require('./models/bookModel');
 const bodyParser = require('body-parser');
+const Book = require('./models/bookModel');
 
 const app = express();
 const db = mongoose.connect('mongodb://root:example@localhost:27017/');
